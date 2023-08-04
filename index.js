@@ -120,6 +120,8 @@ export class TomlTest {
     await p;
 
     await this.decompress();
+
+    await fs.chmod(this.binaryFilePath, 755);
   }
 
   async ensureDistExists() {
