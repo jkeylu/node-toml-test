@@ -1,7 +1,7 @@
 {
   "name": "toml-test",
   "version": "0.1.0",
-  "description": "",
+  "description": "This is a Node.js wrapper for [toml-test](https://github.com/BurntSushi/toml-test).",
   "type": "module",
   "main": "index.js",
   "bin": "cli.js",
