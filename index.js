@@ -48,7 +48,7 @@ export class TomlTest {
   get binaryFilename() {
     let name = `toml-test-v${this.version}-${this.platform}-${this.arch}`;
     if (this.platform === 'windows') {
-      name += '.ext';
+      name += '.exe';
     }
     return name;
   }
